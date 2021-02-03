@@ -1,5 +1,5 @@
 {
-  "name": "switchboard",
+  "name": "@micahjonas/switchboard",
   "version": "0.0.1",
   "description": "Switchboard, a small fetch api router useful for cloudflare workers. Based on Trouter.",
   "source": "switchboard.js",
@@ -31,6 +31,6 @@
     "trouter": "3.1.0"
   },
   "devDependencies": {
-    "microbundle": "^0.13.0"
+    "microbundle": "0.13.0"
   }
 }
