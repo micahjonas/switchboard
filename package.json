@@ -1,0 +1,36 @@
+{
+  "name": "switchboard",
+  "version": "0.0.1",
+  "description": "Switchboard, a small fetch api router useful for cloudflare workers. Based on Trouter.",
+  "source": "switchboard.js",
+  "main": "dist/switchboard.js",
+  "exports": "dist/switchboard.modern.js",
+  "module": "dist/switchboard.mjs",
+  "unpkg": "dist/switchboard.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micahjonas/switchboard.git"
+  },
+  "keywords": [
+    "Router",
+    "Cloudflare",
+    "Worker",
+    "Webworker"
+  ],
+  "author": "Micha Schwendener",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micahjonas/switchboard/issues"
+  },
+  "homepage": "https://github.com/micahjonas/switchboard#readme",
+  "dependencies": {
+    "trouter": "3.1.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.13.0"
+  }
+}
