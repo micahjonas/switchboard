@@ -3,12 +3,9 @@
   "version": "0.0.1",
   "description": "Switchboard, a small fetch api router useful for cloudflare workers. Based on Trouter.",
   "source": "switchboard.js",
-  "main": "dist/switchboard.js",
-  "exports": "dist/switchboard.modern.js",
-  "module": "dist/switchboard.mjs",
-  "unpkg": "dist/switchboard.umd.js",
+  "main": "dist/switchboard.modern.js",
   "scripts": {
-    "build": "microbundle",
+    "build": "microbundle --format modern",
     "dev": "microbundle watch"
   },
   "repository": {

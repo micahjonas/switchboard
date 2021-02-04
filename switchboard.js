@@ -1,6 +1,6 @@
 import Trouter from 'trouter'
 
-export default class CFTrouter extends Trouter {
+class Switchboard extends Trouter {
   constructor(opts={}) {
 		super(opts)
   }
@@ -35,3 +35,5 @@ export default class CFTrouter extends Trouter {
     })
   }
 }
+
+export default Switchboard
